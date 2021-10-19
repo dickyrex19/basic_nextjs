@@ -5,9 +5,7 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb",
-        "eslint:recommended",
-        "plugin:prettier/recommended"
+        "airbnb"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -19,12 +17,12 @@
     },
     "plugins": [
         "react",
-        "@typescript-eslint",
-        "prettier"
+        "@typescript-eslint"
     ],
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "react/react-in-jsx-scope": "off",
+        "jsx-a11y/anchor-is-valid": "off",
         "linebreak-style": "off"
     }
 }
